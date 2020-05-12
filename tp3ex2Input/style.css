@@ -12,6 +12,9 @@ h2 {
 }
 #menu {
   border: 3px solid #783F27;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
 }
 section {
   background: #F6F3ED;
@@ -31,4 +34,12 @@ section {
   padding: 5px;
   width: 100%;
   text-align: center;
+}
+
+.dish{
+  display: flex;
+  flex-direction: column;
+}
+.photo{
+  order : -1;
 }
