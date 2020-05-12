@@ -1,0 +1,86 @@
+header{
+    background-image: url(images/croissants_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    text-align: center;
+    background-color :  #783F27;
+    font-family: verdana;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    
+}
+header>h1{
+    text-align: center;
+}
+
+header>p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color : #F9AB33;
+    text-decoration: none;
+    border-bottom: dotted;
+    width: 1px;
+
+}
+
+a:hover{
+    color : #608080;
+}
+
+
+footer{
+    background-color:#783F27;
+    text-align: center;
+    color :  #EADDC4;
+    padding : 1em;
+}
+
+div.main>h2{
+    color : #555555;
+}
+
+div.main{
+    border-radius: 25px;
+    border-style : double;
+    border-color: #EADDC4;
+    margin: 2.5%;
+    padding: 1em;
+}
+
+div.main>h3{
+    text-transform: uppercase;
+    color : #7A0002;
+    letter-spacing: 0.2em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding: 1em;
+    margin-top: 2.5em;
+}
+
+div.hours{
+    background-color :#F6F3ED;
+    margin : 2.5%;
+    border-style: solid;
+    border-color:  #7A0002;
+}
+span.day{
+    color:#783F27 ;
+}
+
+body{
+    font-family: Stint Ultra Expanded ;
+}
