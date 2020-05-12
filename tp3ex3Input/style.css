@@ -92,5 +92,49 @@ html {
     text-align: center;
     font-size: .8em;
     padding: .5em;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 8;
   }
   
+
+  #layout{
+    display: grid;
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
+    grid-template-rows: 3em 20px 150px 300px 5em;
+}
+
+  main{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#figA{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#figB{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+#figC{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+nav{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
